@@ -1,7 +1,7 @@
 import java.util.Scanner
 
 fun main(){
-    val version = " this is version 2"
+    val version = " this is version 3"
     println(version)
 
     var scan = Scanner(System.`in`)
@@ -10,6 +10,9 @@ fun main(){
 
     println("enter the second number")
     var number2 : Double = scan.nextDouble()
+
+    var result = number1 + number2
+    println("sum of the two numbers is = "+result)
 
 
 
